@@ -1,0 +1,23 @@
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer {
+    clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+      
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+.back-to-top  {
+    color: white;
+    float: right;
+}

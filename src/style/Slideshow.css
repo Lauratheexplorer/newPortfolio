@@ -1,0 +1,15 @@
+div.galleryImage {
+    margin-left: 150px;
+}
+
+@media screen (max-width: 700px) {
+    div.galleryImage {
+        margin: 0px;
+    }
+}
+
+@media screen (min-width: 700px) {
+    .galleryStyle {
+        margin-left: 150px;
+    }
+}

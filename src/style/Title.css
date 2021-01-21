@@ -1,0 +1,14 @@
+
+p.borderFit {
+  width: max-content;
+  /* margin: auto; */
+}
+
+@media screen and (max-width: 900px) {
+  div.ml6 {
+    margin-left: auto;
+  }
+  p.borderFit {
+    font-size: 1.8em;
+  }
+}

@@ -1,0 +1,43 @@
+.sidebar {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  height: auto;
+  z-index: 100;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+    float: center;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: rgba(0,212,255,0.7);
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    div.content {margin-left: 0;}
+    
+  }
+ 
