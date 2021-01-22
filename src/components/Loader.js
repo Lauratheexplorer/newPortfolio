@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 
-
 const loader = document.querySelector(".preloader");
 
 const showLoader = () => loader.classList.remove("preloader");
