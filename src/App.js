@@ -1,3 +1,4 @@
+import Loader from './components/Loader';
 import Nav from './components/Nav';
 import Title from './components/Title';
 import CardList from './components/CardList';
@@ -7,14 +8,16 @@ import Footer from './components/Footer';
 
 const App = () => {
     return (
-        <div>
-            {/* <Loader />  */}
-            {/* <ModeSwitch />  */}
-            <Nav /> 
-            <Title />
-            <CardList websites={websites} />
-            <About />
-            <Footer />
+        <div >
+                    <Loader /> 
+                    {/* <ModeSwitch />  */}
+                    <Nav /> 
+                    <Title />
+                    <CardList websites={websites} />
+                    <About />
+                    <Footer />
+                
+            
         </div>
     )
 }
