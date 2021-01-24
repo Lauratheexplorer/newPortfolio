@@ -6,12 +6,16 @@ class Title extends Component {
     render() {
         return (
             <div id='title' className="pt5 tc flex justify-center">
-                <section className="f2 mt0"> Presenting 
-                    <Tilt className="Tilt" options={{ max : 50 }} style={{ height: 250, width: 250 }} >
-                        <p className="Tilt-inner f-5 ttu tracked ba b--dotted shadow-2 bw3 br-pill flex borderFit mt5 pa4"> Laura Hutt </p>
+                <section className="f2-ns f3-m mt2"> Presenting 
+                    <Tilt className="Tilt" options={{ max : 50 }} style={{ height: 190, width: 250 }} >
+                        <p className="Tilt-inner f-5 ttu tracked ba b--dotted shadow-2 bw3 br-pill borderFit mt4 pa4 ml4 "> Laura Hutt </p>
                     </Tilt>
-                    {/* <a className="nameTitle f-5 ttu tracked ba b--dotted bw4 br-pill pa2 ">Laura Hutt</a> */}
-                    <p className="mt1">The dev you've been looking for...</p>
+                    <div className="f4-ns">
+                    <p>The dev you've been looking for...</p>
+                    <p>Creating fully responsive websites since 2021</p>
+                    <p>This website was created using React and incorporating tachyons</p>
+                    </div>
+                    
                         {/* Links to Github, LinkedIn and Email */}
                         <p className="social-links flex flex-row justify-center mb5">
                             <a href="https://www.linkedin.com/in/laura-hutt-9b074924" target="_blank" rel="noreferrer">

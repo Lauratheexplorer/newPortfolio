@@ -10,21 +10,22 @@
   /* Sidebar links */
   .sidebar a {
     display: flex;
-    justify-content: space-between;
+    
     color: white;
-    padding: 16px;
+    padding: 14px;
     text-decoration: none;
     text-align: center;
     float: center;
   }
   
   /* Active/current link */
-  .sidebar a.active {
+  .sidebar a.active_item {
     background-color: rgba(0,212,255,0.7);
+    background-size: cover;
     color: white;
   }
   
-  .sidebar a:hover:not(.active) {
+  .sidebar a:hover:not(.active_item) {
     background-color: #555;
     color: white;
   }
@@ -36,8 +37,8 @@
   }
   
   /* On screens that are less than 700px wide, make the sidebar into a topbar */
-  @media screen and (max-width: 700px) {
+  /* @media screen and (max-width: 400px) {
     div.content {margin-left: 0;}
     
-  }
+  } */
  

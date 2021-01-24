@@ -14,7 +14,7 @@ import charity from '../images/charity.jpeg';
 
 const About = () => {
     return (
-        <section id="about" className="ma4 mb6">
+        <section id="about" className="ma4 mb6 pt4">
             <div className=" justify-around">
                 <div className="flex flex-column justify-center items-center tc grow">
                 <h2 className="ttu tracked tc">About me:</h2>
