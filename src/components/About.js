@@ -34,7 +34,7 @@ const About = () => {
             </div>
             
             <div className="flex flex-column">
-                <h2 className="flex pb3 justify-center">Interests gallery (hover mouse over)
+                <h2 className="flex pb3 justify-center tc">Interests gallery (hover/click mouse on images)
                 </h2>
                 <div className="pa3 flex row-wrap justify-around">
                     <div className="container circularDisplay grow shadow-2 ba">

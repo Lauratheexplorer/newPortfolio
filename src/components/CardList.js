@@ -24,7 +24,7 @@ function CardList () {
                     <h2 className="tc pa3 bold ttu tracked">Here's some I made earlier:</h2>
                      <h4 className="tc">Click the triangles below for more information</h4>
                     <section className="flex items-center justify-center">
-                        <button onClick={slideLeft} className="grow fas fa-hand-point-left bg-black fa-inverse fa-3x"></button>
+                        <button onClick={slideLeft} className="grow fas fa-hand-point-left bg-black fa-inverse fa-2x"></button>
                         <Card className="flex items-center"
                                 objectFit="cover"
                                 key={index}
@@ -35,7 +35,7 @@ function CardList () {
                                 seeLive={websites[index].seeLive} 
                                 sourceCode={websites[index].sourceCode} 
                         />
-                        <button onClick={slideRight} className=" grow fas fa-hand-point-right bg-black fa-inverse fa-3x"></button>
+                        <button onClick={slideRight} className=" grow fas fa-hand-point-right bg-black fa-inverse fa-2x"></button>
                         {/* Line Break */}
                        
                     </section>
