@@ -52,7 +52,7 @@ const About = () => {
                     <div className="container circularDisplay grow shadow-2 ba">
                         <img className="" src={charity} alt='charity' />
                             <div className="overlay">
-                                <div className="text black">Charity</div>
+                                <div className="text">Charity</div>
                             </div>
                     </div>
                 </div>
